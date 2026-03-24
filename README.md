@@ -3,7 +3,7 @@ YOLOv11‑based binary classifier to detect space debris in satellite imagery. T
 
 # 🛰️ Space Debris Detector
 
-[![Hugging Face Space](https://img.shields.io/badge/🤗%20Live%20Demo-Space-blue)]((https://deeplens-space-debris-collector.hf.space/?__theme=system&deep_link=LFovBpiwqBo))
+[![Hugging Face Space](https://img.shields.io/badge/🤗%20Live%20Demo-Space-blue)](https://deeplens-space-debris-collector.hf.space)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![Ultralytics](https://img.shields.io/badge/Ultralytics-YOLOv11-orange)](https://github.com/ultralytics/ultralytics)
@@ -91,7 +91,7 @@ After training on a balanced subset of **1,000 images** (500 debris, 500 non‑d
 
 ### Sample Predictions
 
-![Test Predictions](Results/val_batch5000.jpg)
+![Test Predictions](Results/val_batch0_labels.jpg)
 
 ---
 
