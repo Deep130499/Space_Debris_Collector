@@ -7,6 +7,7 @@ YOLOv11‑based binary classifier to detect space debris in satellite imagery. T
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
 [![Ultralytics](https://img.shields.io/badge/Ultralytics-YOLOv11-orange)](https://github.com/ultralytics/ultralytics)
 
+Try the live demo on **[Hugging Face Spaces](https://deeplens-space-debris-collector.hf.space)**.
 
 > A YOLOv11‑based binary classifier to detect space debris in satellite imagery.  
 > Trained on the NCSTP synthetic dataset, with balanced sampling, class‑weighted loss, and full evaluation pipeline.
@@ -102,7 +103,4 @@ After training on a balanced subset of **1,000 images** (500 debris, 500 non‑d
 ```bash
 git clone https://github.com/yourusername/space-debris-detector.git
 cd space-debris-detector
-
-
-Link for Hugging Face: [![Hugging Face Space]](https://deeplens-space-debris-collector.hf.space)
 
