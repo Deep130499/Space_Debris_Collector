@@ -31,7 +31,7 @@ def parse_args():
     parser.add_argument("--img_dir", required=True, help="Directory containing the images referenced in the JSON.")
     parser.add_argument("--output_dir", required=True, help="Output directory for YOLO dataset (images/ and labels/ subfolders).")
     parser.add_argument("--split", default="train", help="Split name (e.g., train, val, test). Will create images/{split} and labels/{split}.")
-    parser.add_argument("--debris_names", nargs="+", default=["spacedebris", "spacerock"], help="Category names to treat as debris (class 1). All others become class 0.")
+    parser.add_argument("--debris_names", nargs="+", default=["spacedebris"], help="Category names to treat as debris (class 1). All others become class 0.")
     parser.add_argument("--subset_size", type=int, default=None, help="Total number of images to sample (if not None).")
     parser.add_argument("--balance", action="store_true", help="If True, balance the subset by taking equal numbers of debris and non‑debris images.")
     parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility.")
