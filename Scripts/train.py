@@ -9,7 +9,7 @@ This script supports:
 - Automatically generating a unique experiment name.
 
 Usage examples:
-    python train.py --data /content/balanced_dataset.yaml --epochs 50
+    python train.py --data /content/arg.yaml --epochs 50
     python train.py --data data.yaml --resume runs/detect/experiment/weights/last.pt
     python train.py --data data.yaml --class_weights 0.5 1.5   # custom weights
     python train.py --data data.yaml --no_class_weights       # equal weights
